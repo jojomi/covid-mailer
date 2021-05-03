@@ -1,0 +1,6 @@
+email:
+  server: smtp.gmail.com
+  port: 587
+  user: whatever@gmail.com
+  password: myapppassword
+  from: whatever@gmail.com
