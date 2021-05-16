@@ -22,6 +22,7 @@ Available Commands:
 Flags:
   -d, --dry-run             Nur testen?
   -h, --help                help for covid-mailer
+  -i, --history-days int    Anzahl der Tage, die in der Historie angezeigt werden sollen (default 14)
   -l, --landkreis strings   Landkreis-Name(n)
   -o, --once-per-day        Nur einmal pro Kalendertag verschicken
   -r, --recipient string    E-Mail-Empfänger
