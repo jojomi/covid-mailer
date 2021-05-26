@@ -5,7 +5,7 @@ go 1.16
 require (
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.4.0
 	github.com/iancoleman/strcase v0.1.3
-	github.com/jojomi/strtpl v0.3.0
+	github.com/jojomi/strtpl v0.4.1
 	github.com/juju/errors v0.0.0-20200330140219-3fe23663418f
 	github.com/juju/testing v0.0.0-20210324180055-18c50b0c2098 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible
