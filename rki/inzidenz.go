@@ -16,7 +16,7 @@ import (
 var (
 	sourceURL     = "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Fallzahlen_Kum_Tab.xlsx?__blob=publicationFile"
 	targetFile    = "./data/rki-data-daily.xlsx"
-	sheetInzidenz = "LK_7-Tage-Inzidenz"
+	sheetInzidenz = "LK_7-Tage-Inzidenz (fixiert)"
 )
 
 func DownloadInzidenzData() error {
