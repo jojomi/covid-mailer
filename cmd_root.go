@@ -180,7 +180,7 @@ func handleRoot(env EnvRoot) {
 		aktuell[i] = fmt.Sprintf("%.1f", rki.Last(l.Inzidenzen).Value)
 	}
 
-	subject, err := strtpl.Eval(`[ {{- .Aktuell -}} ] Corona-Zahlen und 7-Tage-Inzidenz, Stand {{ .Stand.Format "02.01.2006" }} Uhr`, map[string]interface{}{
+	subject, err := strtpl.Eval(`[ {{- .Aktuell -}} ] Corona-Zahlen und 7-Tage-Inzidenz, Stand: {{ .Stand.Format "02.01.2006" }}`, map[string]interface{}{
 		"Aktuell": strings.Join(aktuell, " · "),
 		"Stand":   stand,
 	})

@@ -74,8 +74,37 @@ func GetStand(f *excelize.File) (time.Time, error) {
 	}
 	t, err := time.Parse("Stand: 02.01.2006 15:04:05", value)
 	if err != nil {
+		return getStandNew(f)
+	}
+	return t, nil
+}
+
+func getStandNew(f *excelize.File) (time.Time, error) {
+
+	var (
+		value  string
+		err    error
+		last   string
+		column = 4
+	)
+
+	for {
+		value, err = f.GetCellValue(sheetInzidenz, GetColumnName(column)+"5")
+		if err != nil {
+			return time.Time{}, err
+		}
+		if value == "" {
+			break
+		}
+		last = value
+		column++
+	}
+
+	t, err := time.Parse("01-02-06", last)
+	if err != nil {
 		return time.Time{}, err
 	}
+
 	return t, nil
 }
 
