@@ -10,7 +10,7 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible
 	github.com/rs/zerolog v1.26.0
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.3.0
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/yaml.v2 v2.4.0
 )
