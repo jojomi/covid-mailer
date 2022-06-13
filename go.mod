@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.4.0
 	github.com/iancoleman/strcase v0.2.0
-	github.com/jojomi/strtpl v0.4.1
+	github.com/jojomi/strtpl v0.4.3
 	github.com/juju/errors v0.0.0-20210818161939-5560c4c073ff
 	github.com/peterbourgon/diskv v2.0.1+incompatible
 	github.com/rs/zerolog v1.26.1
