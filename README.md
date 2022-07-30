@@ -2,6 +2,8 @@
 
 Dieses Programm ermöglicht es, die tagesaktuellen RKI-Zahlen der 7-Tage-Corona-Inzidenzen per E-Mail zu verschicken.
 
+> :warning: **Mindestens seit Juli 2022 funktioniert dieses Programm nicht mehr, da das RKI still und heimlich die täglichen Berichte mit Infektionszahlen eingestellt hat.** Die Word-Datei (die von Hand geschrieben wurde), hat außerdem nicht mehr das Format, das dieses Tool verarbeiten kann. Digitalisierungswüste Deutschland, es tut mir leid.
+
 ## Vorbereitung
 
 Konfiguration für ein E-Mail-Konto zum Versand der Emails muss in der Datei `config.yml` hinterlegt werden, siehe [`config.yml.example`](config.yml.example).
