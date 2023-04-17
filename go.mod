@@ -8,7 +8,7 @@ require (
 	github.com/jojomi/strtpl v0.4.3
 	github.com/juju/errors v0.0.0-20210818161939-5560c4c073ff
 	github.com/peterbourgon/diskv v2.0.1+incompatible
-	github.com/rs/zerolog v1.27.0
+	github.com/rs/zerolog v1.29.1
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
 	github.com/spf13/cobra v1.2.1
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
