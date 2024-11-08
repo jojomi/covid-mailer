@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/360EntSecGroup-Skylar/excelize/v2"
 	"github.com/rs/zerolog/log"
+	"github.com/xuri/excelize/v2"
 )
 
 var (
-	sourceURL     = "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Fallzahlen_Kum_Tab.xlsx?__blob=publicationFile"
+	sourceURL     = "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Fallzahlen_Inzidenz_aktualisiert.xlsx?__blob=publicationFile"
 	targetFile    = "./data/rki-data-daily.xlsx"
 	sheetInzidenz = "LK_7-Tage-Inzidenz (fixiert)"
 )
