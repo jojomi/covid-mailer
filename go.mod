@@ -7,7 +7,7 @@ require (
 	github.com/jojomi/strtpl v0.4.4
 	github.com/juju/errors v1.0.0
 	github.com/peterbourgon/diskv v2.0.1+incompatible
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
 	github.com/spf13/cobra v1.8.1
 	github.com/xuri/excelize/v2 v2.9.0
