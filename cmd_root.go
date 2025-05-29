@@ -29,7 +29,7 @@ func getRootCmd() *cobra.Command {
 	pf.BoolP("verbose", "v", false, "activate more verbose output")
 
 	f := cmd.Flags()
-	f.StringSliceP("landkreis", "l", []string{"LK Oldenburg"}, "Landkreis-Name(n)")
+	f.StringSliceP("landkreis", "l", []string{"LK Berlin"}, "Landkreis-Name(n)")
 	err := cmd.MarkFlagRequired("landkreis")
 	if err != nil {
 		log.Fatal().Err(err).Msg("Flag landkreis nicht als required markierbar")
